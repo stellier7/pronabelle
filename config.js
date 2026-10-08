@@ -121,6 +121,8 @@ const CONFIG = {
     "images/09-balayage-waves.jpg",
     "images/04-bridal.jpg",
     "images/03-makeup.jpg",
+    "images/07-highlights-foils.jpg",
+    "images/02-wash-station.jpg",
   ],
 
   // ---- Testimonios (Google Reviews) ----
