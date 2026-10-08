@@ -144,7 +144,7 @@ const CONFIG = {
   ],
 
   // ---- Imágenes de ambiente ----
-  heroImage: "images/05-copper-brand.jpg",
+  heroImage: "images/02-wash-station.jpg",
   visitImage: "images/01-stylist-revlon.jpg",
 
   // ---- Textos de interfaz ----

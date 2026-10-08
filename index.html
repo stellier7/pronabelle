@@ -175,10 +175,14 @@
 </section>
 
 <footer class="wrap">
-  <div class="footer-row">
-    <span class="fbrand" id="footer-brand"></span>
-    <span id="footer-meta"></span>
-    <a id="footer-insta" target="_blank" rel="noopener"></a>
+  <div class="footer-inner">
+    <div class="footer-row">
+      <span class="fbrand" id="footer-brand"></span>
+      <span id="footer-meta"></span>
+    </div>
+    <div class="foot-credit">
+      Desarrollado por <a href="https://www.iagodigital.com/" target="_blank" rel="noopener">IAGO Digital</a>
+    </div>
   </div>
 </footer>
 
@@ -282,14 +286,12 @@
 
   const heroInsta = document.getElementById("hero-instagram");
   const socialInsta = document.getElementById("social-instagram");
-  const footerInsta = document.getElementById("footer-insta");
-  [heroInsta, socialInsta, footerInsta].forEach((el) => {
+  [heroInsta, socialInsta].forEach((el) => {
     el.href = c.instagramUrl;
     el.setAttribute("aria-label", c.instagramHandle);
   });
   heroInsta.setAttribute("aria-label", c.instagramHandle);
   document.getElementById("social-instagram-label").textContent = c.instagramHandle;
-  footerInsta.textContent = c.instagramHandle;
 
   const heroEl = document.querySelector(".hero");
   const heroMedia = document.getElementById("hero-media");
@@ -365,9 +367,8 @@
   document.getElementById("contact-hours").innerHTML = (c.hours || []).map((hour) => `
     <div class="hours-line"><span>${esc(hour.day)}</span><span>${esc(hour.time)}</span></div>
   `).join("");
-  document.getElementById("footer-brand").textContent = `${c.brandName} Eco Salon — ${c.tagline}`;
-  const footerBits = [c.phoneDisplay, c.phoneAlt, c.email, c.address].filter(Boolean);
-  document.getElementById("footer-meta").textContent = footerBits.join(" · ");
+  document.getElementById("footer-brand").textContent = `${c.brandName} Eco Salon`;
+  document.getElementById("footer-meta").textContent = `${c.tagline} · Comayagua, Honduras`;
 
   const lightbox = document.getElementById("gallery-lightbox");
   lightbox.setAttribute("aria-label", u.lightboxLabel);
