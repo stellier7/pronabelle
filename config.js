@@ -91,36 +91,36 @@ const CONFIG = {
       time: "01",
       title: "Llegar",
       text: "Te recibimos en Casa Blanca, escuchamos lo que quieres lucir y revisamos el estado de tu cabello o piel antes de empezar.",
-      img: "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1200&auto=format&fit=crop",
+      img: "images/02-wash-station.jpg",
     },
     {
       time: "02",
       title: "Elegir",
       text: "Juntas armamos el plan: balayage, mechas o maquillaje, siempre con fórmulas libres de químicos innecesarios.",
-      img: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1200&auto=format&fit=crop",
+      img: "images/07-highlights-foils.jpg",
     },
     {
       time: "03",
       title: "Crear",
       text: "Trabajo a mano, sin prisa: cada sección de color y cada trazo de maquillaje se hacen con calma y detalle.",
-      img: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=1200&auto=format&fit=crop",
+      img: "images/03-makeup.jpg",
     },
     {
       time: "04",
       title: "Brillar",
       text: "Cerramos con el espejo, tips de cuidado en casa y tu próxima cita por WhatsApp cuando quieras volver.",
-      img: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?q=80&w=1200&auto=format&fit=crop",
+      img: "images/06b-glam-result.jpg",
     },
   ],
 
   // ---- Galería ----
   gallery: [
-    "https://images.unsplash.com/photo-1522338140262-f46f5913618a?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=900&auto=format&fit=crop",
+    "images/06-glam-waves.jpg",
+    "images/05-copper-brand.jpg",
+    "images/08-balayage-before-after.jpg",
+    "images/09-balayage-waves.jpg",
+    "images/04-bridal.jpg",
+    "images/03-makeup.jpg",
   ],
 
   // ---- Testimonios (Google Reviews) ----
@@ -142,11 +142,8 @@ const CONFIG = {
   ],
 
   // ---- Imágenes de ambiente ----
-  // Placeholder de calidad hasta tener fotos del salón; el banner de marca está en images/
-  heroImage:
-    "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=1800&auto=format&fit=crop",
-  visitImage:
-    "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?q=80&w=1400&auto=format&fit=crop",
+  heroImage: "images/05-copper-brand.jpg",
+  visitImage: "images/01-stylist-revlon.jpg",
 
   // ---- Textos de interfaz ----
   ui: {

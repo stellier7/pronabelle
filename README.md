@@ -8,4 +8,4 @@ Open `index.html` in a browser. No build step.
 
 Edit **`config.js`** for copy, colors, services, ritual steps, gallery URLs, and contact details.
 
-Brand photos can go in `images/`. Gallery and hero still use placeholder photography until real salon shots are added.
+Real salon photos live in `images/` and are referenced from `config.js` (hero, visit portrait, ritual strip, and gallery).
