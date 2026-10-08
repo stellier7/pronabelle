@@ -1,73 +1,87 @@
 // ============================================================
-// MAISON VELA — Plantilla para Salón / Spa de Uñas / Spa
-// Edita todo en este archivo para adaptar el sitio a un nuevo
-// cliente. Para un re-skin normal, no debería hacer falta
-// cambiar nada fuera de este archivo.
+// PRONABELLE ECO SALON — Comayagua, Honduras
+// Edita este archivo para ajustar textos, colores e imágenes.
 // ============================================================
 
 const CONFIG = {
   lang: "es",
 
   // ---- Marca ----
-  brandName: "MAISON VELA",
-  brandNameShort: "VELA",
-  tagline: "Cabello. Uñas. Piel.",
-  heroEyebrow: "Una Casa de Belleza Privada",
-  heroHeadlineLines: ["El Ritual", "de Ser Vista"],
+  brandName: "Pronabelle",
+  brandNameShort: "Pronabelle",
+  tagline: "Sala de Belleza",
+  heroEyebrow: "Eco Salon · Comayagua",
+  heroHeadlineLines: ["Belleza", "sin químicos"],
   heroSub:
-    "Donde cada cita es una ocasión. Cabello, uñas y piel — atendidos con el cuidado que se nota.",
+    "Todos nuestros productos son hechos en base a fórmulas especiales libres de químicos innecesarios.",
 
   // ---- Contacto / Reservas ----
-  whatsappNumber: "50499999999", // código de país + número, sin + ni espacios
-  whatsappDefaultMessage: "¡Hola! Me gustaría reservar una cita en MAISON VELA.",
-  phoneDisplay: "+504 9999-9999",
-  address: "Blvd. Morazán, Torre Sky, Local 4 — Tegucigalpa",
+  whatsappNumber: "50433480658", // código de país + número, sin + ni espacios
+  whatsappDefaultMessage: "¡Hola! Me gustaría reservar una cita en Pronabelle Eco Salon.",
+  phoneDisplay: "+504 3348-0658",
+  phoneAlt: "2272-1661",
+  email: "pronabelle@hotmail.com",
+  address: "Colonia Casa Blanca — Comayagua, Honduras",
   hours: [
-    { day: "Mar — Vie", time: "10:00 AM – 7:00 PM" },
-    { day: "Sábado", time: "9:00 AM – 6:00 PM" },
-    { day: "Dom — Lun", time: "Cerrado" },
+    { day: "Lun — Sáb", time: "8:00 AM – 8:00 PM" },
+    { day: "Domingo", time: "Cerrado" },
   ],
-  instagramHandle: "@maisonvela",
-  instagramUrl: "https://instagram.com",
+  instagramHandle: "Pronabelle Eco Salon",
+  instagramUrl: "https://www.facebook.com/231204046923838",
 
-  // ---- Colores (estudio monocromo — edita solo los valores) ----
+  // ---- Colores (negro + rosa de la marca) ----
   colors: {
     cream: "#000000",
     cream2: "#0A0A0A",
     ink: "#FFFFFF",
-    inkSoft: "#A8A8A8",
-    inkFaint: "#666666",
-    accent: "#FFFFFF",
-    accentInv: "#000000",
-    accentHover: "rgba(255,255,255,0.10)",
-    gray: "#1A1A1A",
-    grayLight: "#111111",
-    line: "rgba(255,255,255,0.14)",
-    lineStrong: "rgba(255,255,255,0.28)",
+    inkSoft: "#C9C0C6",
+    inkFaint: "#8A7A84",
+    accent: "#FF5CAD",
+    accentInv: "#0A0006",
+    accentHover: "rgba(255,92,173,0.16)",
+    gray: "#1A1218",
+    grayLight: "#140F13",
+    line: "rgba(255,92,173,0.28)",
+    lineStrong: "rgba(255,92,173,0.48)",
   },
 
   // ---- Servicios ----
   services: [
     {
-      label: "Cabello",
-      name: "Estudio de Cabello",
+      label: "Color",
+      name: "Balayage",
       description:
-        "Corte, color y acabado con estilistas formadas en las técnicas más actuales de Miami y Europa.",
-      items: ["Corte y peinado signature", "Balayage y corrección de color", "Barra de blowout", "Peinado para bodas y eventos"],
+        "Iluminación pintada a mano, con fórmulas suaves que respetan tu cabello y se ven naturales bajo cualquier luz.",
+      items: [
+        "Balayage clásico",
+        "Balayage con brillos",
+        "Retoque de raíces + balayage",
+        "Tratamiento sellador post-color",
+      ],
     },
     {
-      label: "Uñas",
-      name: "Atelier de Uñas",
+      label: "Color",
+      name: "Mechas",
       description:
-        "Detalle pintado a mano, acabados de larga duración y un estándar de sanitización que no negociamos.",
-      items: ["Gel-X y builder gel", "Manicura rusa", "Nail art pintado a mano", "Ritual de pedicura spa"],
+        "Mechas precisas para abrir el rostro, subir el contraste o refrescar un color que ya amas — sin agresiones innecesarias.",
+      items: [
+        "Mechas tradicionales",
+        "Mechas babylights",
+        "Mechas creativas / fashion",
+        "Corrección y unificación de tono",
+      ],
     },
     {
-      label: "Piel",
-      name: "Piel & Spa",
+      label: "Maquillaje",
+      name: "Maquillaje",
       description:
-        "Faciales y tratamientos corporales diseñados para tu piel, no un menú genérico.",
-      items: ["Facial signature", "Dermaplaning", "Masaje con piedras calientes", "Envoltura corporal reductora"],
+        "Looks para el día a día, eventos y ocasiones especiales, con productos que cuidan tu piel tanto como tu foto final.",
+      items: [
+        "Maquillaje social",
+        "Maquillaje para eventos",
+        "Maquillaje de novia / quinceaños",
+        "Prueba de maquillaje",
+      ],
     },
   ],
 
@@ -76,55 +90,68 @@ const CONFIG = {
     {
       time: "01",
       title: "Llegar",
-      text: "Champagne, toallas tibias y una consulta con tu estilista antes de tocar una sola herramienta.",
+      text: "Te recibimos en Casa Blanca, escuchamos lo que quieres lucir y revisamos el estado de tu cabello o piel antes de empezar.",
       img: "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1200&auto=format&fit=crop",
     },
     {
       time: "02",
-      title: "Atender",
-      text: "Atención plena, una clienta a la vez — sin sillas doble-reservadas ni acabados apresurados.",
+      title: "Elegir",
+      text: "Juntas armamos el plan: balayage, mechas o maquillaje, siempre con fórmulas libres de químicos innecesarios.",
       img: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1200&auto=format&fit=crop",
     },
     {
       time: "03",
-      title: "Finalizar",
-      text: "Cada servicio termina igual: revisión en el espejo y tiempo para disfrutar de verdad el resultado.",
+      title: "Crear",
+      text: "Trabajo a mano, sin prisa: cada sección de color y cada trazo de maquillaje se hacen con calma y detalle.",
       img: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=1200&auto=format&fit=crop",
     },
     {
       time: "04",
-      title: "Salir Radiante",
-      text: "Reagendamos a tu salida — confirmación por WhatsApp antes de que llegues a la puerta.",
+      title: "Brillar",
+      text: "Cerramos con el espejo, tips de cuidado en casa y tu próxima cita por WhatsApp cuando quieras volver.",
       img: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?q=80&w=1200&auto=format&fit=crop",
     },
   ],
 
   // ---- Galería ----
   gallery: [
-    "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=900&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1470259078422-826894b933aa?q=80&w=900&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1522338140262-f46f5913618a?q=80&w=900&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=900&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=900&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=900&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?q=80&w=900&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=900&auto=format&fit=crop",
   ],
 
-  // ---- Testimonios ----
+  // ---- Testimonios (Google Reviews) ----
   testimonials: [
-    { quote: "El único salón donde nunca he mirado el reloj.", name: "Andrea M." },
-    { quote: "Reservé por WhatsApp a las 11pm, confirmada antes de despertar.", name: "Fernanda R." },
-    { quote: "Se siente como un spa de hotel, no un salón de strip mall.", name: "Carolina V." },
+    {
+      quote: "Excelente servicio! The best beauty salon — sigue siendo lo mejor.",
+      name: "Estela A.",
+    },
+    {
+      quote:
+        "La atención es súper buena y el maquillaje es un éxito. Súper empáticas con mi hija de 2 años.",
+      name: "Dabeyba P.",
+    },
+    {
+      quote:
+        "Un lugar ideal para lucir en cualquier evento. Manos profesionales y productos naturales de buena calidad.",
+      name: "Mimirachel E.",
+    },
   ],
 
   // ---- Imágenes de ambiente ----
+  // Placeholder de calidad hasta tener fotos del salón; el banner de marca está en images/
   heroImage:
     "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=1800&auto=format&fit=crop",
   visitImage:
-    "https://images.unsplash.com/photo-1521931961826-fe48677230a5?q=80&w=1400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?q=80&w=1400&auto=format&fit=crop",
 
   // ---- Textos de interfaz ----
   ui: {
-    metaDescription: "MAISON VELA — Una casa de belleza privada para cabello, uñas y piel.",
+    metaDescription:
+      "Pronabelle Eco Salon — Sala de belleza en Comayagua. Balayage, mechas y maquillaje con productos libres de químicos innecesarios.",
     navServices: "Servicios",
     navExperience: "Experiencia",
     navGallery: "Galería",
@@ -136,16 +163,16 @@ const CONFIG = {
     heroSecondary: "Ver servicios",
     heroScroll: "Desliza",
     servicesEyebrow: "Lo Que Hacemos",
-    servicesTitle: "Tres salas, un solo estándar.",
+    servicesTitle: "Tres especialidades, un mismo cuidado.",
     ritualEyebrow: "La Experiencia",
-    ritualTitle: "Cada visita, el mismo ritual.",
-    galleryEyebrow: "Dentro de la Casa",
-    galleryTitle: "Un espacio hecho para bajar el ritmo.",
+    ritualTitle: "Cada visita, el mismo ritual eco.",
+    galleryEyebrow: "Dentro del Salón",
+    galleryTitle: "Color, luz y piel — hechos con calma.",
     galleryImageAlt: "Imagen de galería",
     testimonialsEyebrow: "De Boca en Boca",
-    testimonialsTitle: "Lo que repiten nuestras clientas.",
+    testimonialsTitle: "Lo que escriben nuestras clientas.",
     visitEyebrow: "Encuéntranos",
-    visitTitle: "Visita la casa.",
+    visitTitle: "Visita Pronabelle.",
     visitImageAlt: "Interior del salón",
     footerEyebrow: "Cuando Quieras",
     footerTitle: "Reserva tu cita.",
@@ -159,5 +186,7 @@ const CONFIG = {
     lightboxClose: "Cerrar",
     lightboxPrev: "Anterior",
     lightboxNext: "Siguiente",
+    phoneAltLabel: "Línea fija",
+    emailLabel: "Correo",
   },
 };

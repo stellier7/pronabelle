@@ -1,9 +1,11 @@
-# Pronabelle
+# Pronabelle Eco Salon
 
-Single-page salon site, copied from [luxury-salon-template](https://github.com/stellier7/luxury-salon-template). The page still shows the **MAISON VELA** demo until Pronabelle’s copy and photos are added in `config.js`.
+Single-page site for **Pronabelle Eco Salon** (Comayagua), based on the [luxury salon template](https://github.com/stellier7/luxury-salon-template).
 
 Open `index.html` in a browser. No build step.
 
 ## Customize
 
-Edit `config.js` only for a normal re-skin: brand, contact, colors, services, ritual steps, gallery, and testimonials. WhatsApp links are built from `whatsappNumber` and `whatsappDefaultMessage`.
+Edit **`config.js`** for copy, colors, services, ritual steps, gallery URLs, and contact details.
+
+Brand photos can go in `images/`. Gallery and hero still use placeholder photography until real salon shots are added.
