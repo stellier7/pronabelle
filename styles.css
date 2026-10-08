@@ -926,6 +926,41 @@ body.lightbox-open { overflow: hidden; }
   font-size: clamp(30px, 3.6vw, 44px);
   margin-top: 12px;
 }
+.visit-map-wrap {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.visit-map {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  min-height: 240px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #111;
+  filter: grayscale(0.15) contrast(1.05);
+}
+.visit-map-link {
+  align-self: flex-start;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color .25s var(--ease), opacity .25s var(--ease);
+}
+.visit-map-link:hover { color: #ff7abd; }
+.contact-row .txt a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+  transition: color .25s var(--ease), border-color .25s var(--ease);
+}
+.contact-row .txt a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
 .contact-card {
   background: transparent;
   border-radius: 28px;

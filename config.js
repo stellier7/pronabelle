@@ -22,12 +22,17 @@ const CONFIG = {
   phoneAlt: "2272-1661",
   email: "pronabelle@hotmail.com",
   address: "Colonia Casa Blanca — Comayagua, Honduras",
+  mapsUrl: "https://maps.app.goo.gl/YTKHxdUWRwZ8iazi8",
+  mapsEmbed:
+    "https://www.google.com/maps?q=Pronabelle+Eco+Salon,+Colonia+Casa+Blanca,+Comayagua&ll=14.4603548,-87.6522216&z=16&hl=es&output=embed",
   hours: [
     { day: "Lun — Sáb", time: "8:00 AM – 8:00 PM" },
     { day: "Domingo", time: "Cerrado" },
   ],
-  instagramHandle: "Pronabelle Eco Salon",
-  instagramUrl: "https://www.facebook.com/231204046923838",
+  instagramHandle: "@pronabelle",
+  instagramUrl: "https://www.instagram.com/pronabelle/",
+  facebookHandle: "Pronabelle Eco Salon",
+  facebookUrl: "https://www.facebook.com/231204046923838",
 
   // ---- Colores (negro + rosa de la marca) ----
   colors: {
@@ -173,6 +178,7 @@ const CONFIG = {
     visitEyebrow: "Encuéntranos",
     visitTitle: "Visita Pronabelle.",
     visitImageAlt: "Interior del salón",
+    mapsOpen: "Abrir en Google Maps",
     footerEyebrow: "Cuando Quieras",
     footerTitle: "Reserva tu cita.",
     footerCta: "Escríbenos por WhatsApp",
